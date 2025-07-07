@@ -13,7 +13,7 @@ export default function App() {
 
   const handleSubmit = async () => {
     try {
-      const res = await axios.post("http://localhost:5001/generate", {
+      const res = await axios.post(`http://localhost:5001/generate`, {
         question: questionInput,
       });
       if (res.data.error) {
