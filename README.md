@@ -16,27 +16,25 @@ MCQ-Answer-Generator is an intelligent web application that generates and evalua
 
 ## Project Structure
 
+```
 MCQ-Answer-Generator/
 ├── backend/
-│ ├── app.py # Main backend logic (LangChain, LLM, API)
-│ ├── requirements.txt # Python dependencies
-│ └── ... # Any additional backend utilities
+│   ├── app.py                 # Main backend logic (LangChain, LLM, API)
+│   ├── requirements.txt       # Python dependencies
+│   └── ...                    # Any additional backend utilities
 │
 ├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/ # React components (e.g., QuestionForm, AnswerCard)
-│ │ ├── App.js # Main React app entry
-│ │ └── index.js # ReactDOM rendering
-│ ├── package.json # Frontend dependencies
-│ └── ... # Other frontend assets
+│   ├── public/
+│   ├── src/
+│   │   ├── components/        # React components (e.g., QuestionForm, AnswerCard)
+│   │   ├── App.js             # Main React app entry
+│   │   └── index.js           # ReactDOM rendering
+│   ├── package.json           # Frontend dependencies
+│   └── ...                    # Other frontend assets
 │
 ├── README.md
 └── .gitignore
-
-yaml
-Copy
-Edit
+```
 
 ---
 
@@ -59,60 +57,59 @@ Edit
    ```bash
    git clone https://github.com/AytenHossam/MCQ-Answer-Generator.git
    cd MCQ-Answer-Generator/backend
-Create a virtual environment and activate it:
+   ```
 
-bash
-Copy
-Edit
-python3 -m venv venv
-source venv/bin/activate
-Install the required packages:
+2. Create a virtual environment and activate it:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the backend server:
+3. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-bash
-Copy
-Edit
-python app.py
-Frontend Setup
-Navigate to the frontend directory:
+4. Run the backend server:
+   ```bash
+   python app.py
+   ```
 
-bash
-Copy
-Edit
-cd ../frontend
-Install frontend dependencies:
+### Frontend Setup
 
-bash
-Copy
-Edit
-npm install
-Start the frontend development server:
+1. Navigate to the frontend directory:
+   ```bash
+   cd ../frontend
+   ```
 
-bash
-Copy
-Edit
-npm start
-Usage
-Open the web interface in your browser (usually at http://localhost:3000)
+2. Install frontend dependencies:
+   ```bash
+   npm install
+   ```
 
-Enter your MCQ question in the input field
+3. Start the frontend development server:
+   ```bash
+   npm start
+   ```
 
-Review the generated choices (1 correct + 3 distractors)
+---
 
-Select an answer to get feedback immediately
+## Usage
 
-License
+1. Open the web interface in your browser (usually at `http://localhost:3000`)
+2. Enter your MCQ question in the input field
+3. Review the generated choices (1 correct + 3 distractors)
+4. Select an answer to get feedback immediately
+
+---
+
+## License
+
 This project is licensed under the MIT License.
 
-Contact
-Developed by Ayten Hossam Zoweil
-GitHub: AytenHossam
+---
 
-yaml
-Copy
-Edit
+## Contact
+
+Developed by Ayten Hossam Zoweil  
+GitHub: [AytenHossam](https://github.com/AytenHossam)
